@@ -1,0 +1,6 @@
+<import src="../pageItem/detailItem.wxml" />
+<view>
+    <block wx:for="{{lostList}}">
+        <template is="detailItem" data="{{...item}}" />
+    </block>
+</view>

@@ -1,0 +1,11 @@
+<template name="publishItem">
+    <view class="publishContainer">
+    <input class="textContainer" id="time" placeholder="时间" bindblur="bindBlur"/>
+    <input class="textContainer" id="location" placeholder="地点" bindblur="bindBlur" />
+    <input class="textContainer" id="describe" placeholder="描述" bindblur="bindBlur" />
+    <input class="textContainer" id="contact" placeholder="联系人及联系方式" bindblur="bindBlur" />
+    <view class="textConst">上传图片</view>
+    <image wx:if="{{!preview}}" bindtap="onImageUp" class="imageContainer" src="/images/icon/upload.png"></image>
+    <image class="viewImage" src="{{preview}}"></image>
+    </view>
+</template>

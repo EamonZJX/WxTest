@@ -1,0 +1,70 @@
+.my-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:260rpx;
+    width:100%;
+}
+
+.published-container{
+    height:50rpx;
+}
+
+.func-container3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110rpx;
+    text-align: center;
+}
+
+.avatar{
+    height:160rpx;
+    width:160rpx;
+    margin-top:80rpx;
+    margin-right: 50rpx;
+}
+
+.username{
+    margin-top: 120rpx;
+    margin-left:65rpx;
+    font-size: 56rpx;
+    font-weight: 450;
+}
+
+.published-text{
+    font-size: 37.33rpx;
+    font-weight: 500;
+    margin-left: 65rpx;
+}
+
+.publish-text{
+    font-size:51.33rpx;
+}
+
+.count{
+    font-size:42rpx;
+    text-decoration-line: underline;
+}
+
+.func-text{
+    font-size: 37.33rpx;
+    color:white;
+    margin-top: 42rpx;
+}
+
+.func-container{
+    border:1px solid #000000;
+    height:72rpx;
+    width:453rpx;
+    margin-left: 153rpx;
+    margin-top: 66rpx;
+    margin-bottom: 6rpx;
+    background-color: black;
+    text-align: center;
+    line-height: 72rpx;
+}

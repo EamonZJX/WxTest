@@ -1,0 +1,12 @@
+@import "../pageItem/publishItem.wxss";
+
+.buttContainer{
+    height:100rpx;
+    width:100%;
+    background-color: #b4282d;
+    text-align: center;
+    color:white;
+    line-height: 100rpx;
+    position: fixed;
+    bottom:0;
+}

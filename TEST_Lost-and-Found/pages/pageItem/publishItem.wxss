@@ -1,0 +1,32 @@
+.textContainer{
+    font-size: 28rpx;
+    height:100rpx;
+    border-bottom: 1rpx solid #9c9c9c;
+    margin-left:20rpx;
+}
+
+.textConst{
+    font-size: 28rpx;
+    color:#9c9c9c;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+}
+
+.imageContainer{
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    height:128rpx;
+    width:128rpx;
+}
+
+.viewImage{
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    height:270rpx;
+    width:480rpx;
+}
+
+.publishContainer{
+    display: flex;
+    flex-direction: column;
+}

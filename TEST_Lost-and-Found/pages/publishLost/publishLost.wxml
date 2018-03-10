@@ -1,0 +1,6 @@
+<import src="../pageItem/publishItem.wxml" />
+
+<view class="publishContainer">
+    <template is="publishItem" data="{{preview}}" />
+    <view class="buttContainer" bindtap="onPublishLost">发布</view>
+</view>

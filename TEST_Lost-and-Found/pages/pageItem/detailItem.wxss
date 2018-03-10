@@ -1,0 +1,33 @@
+.bc-container{
+    background-color: #d9d9d9;
+    display: flex;
+    height:27rpx;
+}
+
+.pageItemContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top:1rpx solid #a9a8a8;
+    border-bottom: 1rpx solid #a9a8a8;
+}
+.pageImage{
+    height:315rpx;
+    width:560rpx;
+    margin-left: 35rpx;
+}
+
+.pageTime{
+    font-size: 23.33rpx;
+    font-style: italic;
+    margin-left: 550rpx;
+}
+
+.pageItemText{
+    font-size: 32.67rpx;
+    margin-left: 35rpx;
+}
+
+..pageItemTextInfo{
+    font-size: 32.67rpx;
+}

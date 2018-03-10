@@ -1,0 +1,25 @@
+<template name="detailItem">
+    <view bindtouchstart="touchStart" bindtouchend="touchEnd" bindtap="onDelete" id="{{nameId}}">
+        <view class="bc-container"></view>
+        <view class="pageItemContainer">
+            <view>
+                <text class="pageItemText">时间： </text>
+                <text class="pageItemTextInfo">{{time}}</text>
+            </view>
+            <view>
+                <text class="pageItemText">地点： </text>
+                <text class="pageItemTextInfo">{{location}}</text>
+            </view>
+            <view>
+                <text class="pageItemText">描述： </text>
+                <text class="pageItemTextInfo">{{describe}}</text>
+            </view>
+            <view>
+                <text class="pageItemText">联系： </text>
+                <text class="pageItemTextInfo">{{contact}}</text>
+            </view>
+            <image wx:if="{{image}}" class="pageImage" src="{{image}}"></image>
+            <text class="pageTime">于 <text>{{postTime}}</text> 发布</text>
+        </view>
+    </view>
+</template>

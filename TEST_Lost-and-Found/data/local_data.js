@@ -1,0 +1,74 @@
+var local_databaseL=[
+    {
+        time:"星期六晚27点63分",
+        location:"在博北B907发现",
+        describe:"一把M16a4和手雷数枚",
+        contact:"青年郑 110119120114",
+        image:"/images/pic/gun.jpg",
+        postTime:"17/3/1"
+    },
+    {
+        time:"1.9",
+        location:"杏园旁的晾衣场",
+        describe:"晾晒刚洗的被罩",
+        contact:"两分无赖是庐州",
+        image:"",
+        postTime:"18/1/9"
+    },
+    {
+        time:"无",
+        location:"不知道掉到哪里了",
+        describe:"黑白熊猫形状的，里面有银行卡和身份证",
+        contact:"QQ：1542333",
+        image:"",
+        postTime:"18/1/7"
+    },
+    {
+        time:"昨天",
+        location:"榴园附近",
+        describe:"一把天堂的黑格带点蓝的双人雨伞",
+        contact:"Yimmy",
+        image:"",
+        postTime:"18/1/5"
+    }
+];
+
+var local_databaseF=[
+    {
+        time:"1.5",
+        location:"博南C101",
+        describe:"谁在考高数时落下一个计算器",
+        contact:"我不是警察",
+        image:"",
+        postTime:"18/1/5"
+    },
+    {
+        time:"一月四号",
+        location:"榴园门口",
+        describe:"捡到一串钥匙，钥匙圈上有个福字",
+        contact:"朝圣者",
+        image:"",
+        postTime:"18/1/4"
+    },
+    {
+        time:"1月3号",
+        location:"博北C203",
+        describe:"一双手套放在原处",
+        contact:"",
+        image:"/images/pic/shoulei.jpg",
+        postTime:"18/1/3"
+    },
+    {
+        time:"17.12.26",
+        location:"b单双楼之间的小广场原处",
+        describe:"合肥通  看起来用了有一段时间了",
+        contact:"",
+        image:"",
+        postTime:"17/12/26"
+    }
+]
+
+module.exports={
+    lostList:local_databaseL,
+    foundList:local_databaseF
+}

@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/my/my",
+    "pages/lost/lost",
+    "pages/found/found",
+    "pages/publishLost/publishLost",
+    "pages/publishFound/publishFound",
+    "pages/myPublish/myPublish"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#999",
+    "selectedColor": "#2EBF76",
+    "borderStyle": "white",
+    "backgroundColor": "#f6f8f9",
+    "position": "bottom",
+    "list":[
+      {
+        "pagePath": "pages/lost/lost",
+        "iconPath":"/images/icon/lostU.png",
+        "selectedIconPath":"/images/icon/lostS.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "iconPath":"/images/icon/foundU.png",
+        "selectedIconPath":"/images/icon/foundS.png"
+      },{
+        "pagePath":"pages/my/my",
+        "iconPath":"/images/icon/myU.png",
+        "selectedIconPath":"/images/icon/myS.png"
+    }]
+  }
+}

@@ -1,0 +1,19 @@
+<view class="my-container">
+    <view class="user-container">
+        <text class="username">Windytrees</text>
+        <image class="avatar" src="/images/pic/avatar.png"></image>
+    </view>
+    <view class="published-container" bindtap="onMyPublish">
+        <text class="published-text">我的发布 </text>
+        <text class="count">{{count}}</text>
+    </view>
+    <view class="func-container3">
+        <text class="publish-container">我要发布</text>
+        <view class="func-container" bindtap="onFound">
+            <text class="func-text">捡到</text>
+        </view>
+        <view class="func-container" bindtap="onLost">
+            <text class="func-text">遗失</text>
+        </view>
+    </view>
+</view>
